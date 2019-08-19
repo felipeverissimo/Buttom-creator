@@ -1,0 +1,65 @@
+body{
+    margin: 0px;
+    background-color: #ccc;
+
+}
+
+label{
+    display: block;
+    margin: 1rem 0 .5rem 0;
+    font-weight: 800;
+}
+
+input{
+    display: block;
+    height: 30px;
+}
+
+select{
+    display: block;
+    margin: 1rem 0 .5rem 0;
+    width: 169px;
+    height: 40px;
+}
+
+pre {
+    margin-bottom: 0px;
+}
+
+code span{
+    margin-bottom: 10px;
+}
+.button-creator{
+    display: grid;
+    grid-gap: 30px;
+    padding:  30px;
+    grid-template-columns: 250px 400px;
+}
+
+#controles{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .875rem;
+    background-color: #eee;
+    padding:  1rem;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,.1)
+}
+
+.css{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ccc;
+    background-color: #333;
+    height: 490px;
+    padding: 30px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+
+}
+
+.css span {
+    display: block;
+    margin-bottom: 0,5rem;
+     
+}
